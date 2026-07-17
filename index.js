@@ -17,7 +17,7 @@ app.post('/teas',(req,res)=>{
 //render data
 app.get('/teas',(req,res)=>{
   res.status(200).send(tea);
-
+console.log("checking")
 })
 
 
