@@ -13,16 +13,11 @@ app.post('/teas',(req,res)=>{
     tea.push(newtea);
     res.status(200).send(newtea);
 })
-//render data
 app.get('/teas',(req,res)=>{
   res.status(200).send(tea);
 console.log("checking")
 })
-
-
-
-
-
+console.log("for debugging");
 app.listen(port ,()=>{
     console.log("iam listning move .")
 })
