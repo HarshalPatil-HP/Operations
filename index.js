@@ -11,12 +11,10 @@ app.post('/teas',(req,res)=>{
     tea.push(newtea);
     res.status(200).send(newtea);
 })
-
 app.get('/teas',(req,res)=>{
   res.status(200).send(tea);
 console.log("checking")
 })
-
 app.listen(port ,()=>{
     console.log("iam listning move .")
 })
