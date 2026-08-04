@@ -1,6 +1,6 @@
 import express from 'express';
-const app=express()
-let port = 3000
+const app=express();
+let port = 3000;
 let id=1;
 let tea=[]
 app.post('/teas',(req,res)=>{
