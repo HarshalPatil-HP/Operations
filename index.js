@@ -14,7 +14,8 @@ app.post('/teas',(req,res)=>{
 app.get('/teas',(req,res)=>{
   res.status(200).send(tea);
 console.log("checking");
-})
+});
+
 app.listen(port ,()=>{
     console.log("iam listning move .");
 })
