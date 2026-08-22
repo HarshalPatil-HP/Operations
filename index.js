@@ -3,7 +3,6 @@ const app=express();
 let port = 3000;
 let id=1;
 let tea=[];
-
 app.post('/teas',(req,res)=>{
     const {name,price}=req.body;
     const newtea={id:id++,name,price};
